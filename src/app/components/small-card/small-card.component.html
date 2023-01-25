@@ -2,7 +2,7 @@
   <div class="smallCardContent">
     <div class="smallCardPhoto">
       <img
-        src="https://www.shutterstock.com/image-vector/no-image-vector-symbol-missing-260nw-1310632172.jpg"
+        src="{{photoCover}}"
         alt=""
         srcset=""
         height="200px"
@@ -10,7 +10,7 @@
     </div>
 
     <div class="smallCardTitle">
-      <h1><a href="#">Teste de novo titulo</a></h1>
+      <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
     </div>
   </div>
   <div class="separator"><hr></div>
