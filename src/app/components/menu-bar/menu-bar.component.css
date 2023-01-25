@@ -1,0 +1,11 @@
+
+.containerMenuBar > ul{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.containerMenuBar >ul > li{
+    margin-right: 20px;
+    list-style: none;
+}
